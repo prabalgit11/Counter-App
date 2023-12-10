@@ -1,24 +1,24 @@
 let counter = 0
-function increment(){
+function increment() {
 	counter = counter + 1
 	document.getElementById("counter").innerHTML = counter;
 }
-function decrement(){
+function decrement() {
 	counter = counter - 1
 	document.getElementById("counter").innerHTML = counter;
-} 
-function reset(){
-	document.getElementById("counter").innerHTML = 0;
 }
-function incrementby5(){
+// function reset(){
+// 	document.getElementById("counter").innerHTML = 0;
+// }
+function incrementby5() {
 	counter = counter + 5
 	document.getElementById("counter").innerHTML = counter;
 }
-function decrementby10(){
+function decrementby10() {
 	counter = counter - 10
 	document.getElementById("counter").innerHTML = counter;
 }
-function takeinput(){
+function takeinput() {
 	number = Number(document.getElementById("sum").value)
 }
 function sum() {
